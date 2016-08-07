@@ -9,8 +9,6 @@ MANIFEST.SKIP
 README.pod
 t/issn.t
 t/load.t
-t/pod.t
-t/pod_coverage.t
 t/test_manifest
 xt/changes.t
 META.yml                                 Module YAML meta-data (added by MakeMaker)
