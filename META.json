@@ -25,8 +25,13 @@
       },
       "configure" : {
          "requires" : {
+            "Exporter" : "0",
             "ExtUtils::MakeMaker" : "6.64",
-            "File::Spec::Functions" : "0"
+            "File::Spec::Functions" : "0",
+            "strict" : "0",
+            "subs" : "0",
+            "vars" : "0",
+            "warnings" : "0"
          }
       },
       "runtime" : {
@@ -52,5 +57,5 @@
          "web" : "https://github.com/briandfoy/Business-ISSN"
       }
    },
-   "version" : "1.001"
+   "version" : "1.002"
 }

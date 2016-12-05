@@ -13,7 +13,7 @@ use Exporter;
 @ISA       = qw(Exporter);
 @EXPORT_OK = qw(is_valid_checksum);
 
-$VERSION = '1.001';
+$VERSION = '1.002';
 
 sub new {
 	my $class       = shift;
@@ -72,8 +72,7 @@ sub is_valid_checksum {
 	return 0;
 	}
 
-sub _check_validity
-	{
+sub _check_validity {
 	$_[0]->{'valid'}  = is_valid_checksum( $_[0]->_issn );
 	}
 
