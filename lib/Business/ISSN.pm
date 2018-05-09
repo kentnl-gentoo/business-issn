@@ -6,14 +6,13 @@ use warnings;
 no warnings;
 
 use subs qw(_common_format _checksum is_valid_checksum);
-use vars qw($VERSION @ISA @EXPORT @EXPORT_OK);
 
-use Exporter;
+use Exporter qw(import);
 
-@ISA       = qw(Exporter);
-@EXPORT_OK = qw(is_valid_checksum);
+our @EXPORT    = qw();
+our @EXPORT_OK = qw(is_valid_checksum);
 
-$VERSION = '1.002';
+our $VERSION = '1.003';
 
 sub new {
 	my $class       = shift;
@@ -225,8 +224,8 @@ This module is released under the terms of the Perl Artistic License.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright © 1999-2016, brian d foy <bdfoy@cpan.org>. All rights reserved.
+Copyright © 1999-2018, brian d foy <bdfoy@cpan.org>. All rights reserved.
 
-You may redistribute this under the same terms as Perl itself.
+You may redistribute this under the terms of the Artistic License 2.0.
 
 =cut

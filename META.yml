@@ -13,8 +13,8 @@ configure_requires:
   vars: '0'
   warnings: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.140640'
-license: perl
+generated_by: 'ExtUtils::MakeMaker version 7.24, CPAN::Meta::Converter version 2.150010'
+license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
@@ -26,7 +26,8 @@ no_index:
 requires:
   perl: '5.008'
 resources:
-  bugtracker: https://github.com/briandfoy/Business-ISSN/issues
-  homepage: https://github.com/briandfoy/Business-ISSN
-  repository: https://github.com/briandfoy/Business-ISSN.git
-version: '1.002'
+  bugtracker: https://github.com/briandfoy/business-issn/issues
+  homepage: https://github.com/briandfoy/business-issn
+  repository: https://github.com/briandfoy/business-issn.git
+version: '1.003'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
