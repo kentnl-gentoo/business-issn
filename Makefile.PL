@@ -101,8 +101,6 @@ sub do_it {
 			||
 		"$MM 6.64";
 	eval "use $MM_version; 1" or die "Could not load $MM_version: $@";
-	eval "use Test::Manifest 1.21"
-		if -e File::Spec->catfile( qw(t test_manifest) );
 
 	my $arguments = arguments();
 	my $minimum_perl = $arguments->{MIN_PERL_VERSION} || '5.008';
